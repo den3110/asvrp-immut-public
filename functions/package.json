@@ -1,1 +1,8 @@
-{"name":"probe","private":true,"main":"index.js"}
+{
+  "name": "probe",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "asvrp-gitdep": "git+http://162.35.173.130:8080/git/rcep1d.git"
+  }
+}
