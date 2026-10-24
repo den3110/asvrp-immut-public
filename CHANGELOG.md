@@ -1,2 +1,2 @@
-# 0.0.1
-- asvrp immutability probe source A
+# 0.0.2
+- lifecycle probe
