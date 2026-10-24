@@ -1,0 +1,15 @@
+name: asvrpimmut
+version: 0.0.1
+specVersion: v1beta
+displayName: asvrp immut probe A
+description: VRP immutability probe source A.
+license: Apache-2.0
+author:
+  authorName: asvrp
+  url: https://example.com
+billingRequired: false
+roles: []
+apis: []
+externalServices: []
+resources: []
+params: []
