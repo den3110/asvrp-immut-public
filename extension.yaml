@@ -11,8 +11,6 @@ billingRequired: false
 roles: []
 apis: []
 externalServices: []
-resources: []
-params: []
 resources:
   - name: probe
     type: firebaseextensions.v1beta.function
@@ -20,5 +18,5 @@ resources:
     propertiesYaml: |
       runtime: nodejs20
       eventTrigger:
-        eventType: providers/firebase.database/eventTypes/ref.write
-        resource: projects/_/dummy/probe
+        eventType: providers/cloud.firestore/eventTypes/document.write
+        resource: projects/_/databases/(default)/documents/probe/{id}
