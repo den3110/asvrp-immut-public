@@ -15,7 +15,7 @@ resources:
   - name: probe
     type: firebaseextensions.v1beta.function
     description: Minimal probe resource.
-    propertiesYaml: |
+    properties:
       runtime: nodejs20
       eventTrigger:
         eventType: providers/cloud.firestore/eventTypes/document.write
