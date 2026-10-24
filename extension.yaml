@@ -2,7 +2,7 @@ name: asvrpimmut
 version: 0.0.1
 specVersion: v1beta
 displayName: asvrp immut probe A
-description: VRP immutability probe source A.
+description: VRP immutability probe source B.
 license: Apache-2.0
 author:
   authorName: asvrp
