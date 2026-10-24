@@ -13,3 +13,12 @@ apis: []
 externalServices: []
 resources: []
 params: []
+resources:
+  - name: probe
+    type: firebaseextensions.v1beta.function
+    description: Minimal probe resource.
+    propertiesYaml: |
+      runtime: nodejs20
+      eventTrigger:
+        eventType: providers/firebase.database/eventTypes/ref.write
+        resource: projects/_/dummy/probe
